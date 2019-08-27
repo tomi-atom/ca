@@ -1,5 +1,5 @@
 /* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
+:: Template Name: Colorlib App - App Landing Page
 :: Template Author: Colorlib
 :: Template Author URI: https://colorlib.com/
 :: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
@@ -400,7 +400,7 @@ p {
 .header_area.sticky {
     background-color: #ff0000;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
     position: fixed;
     top: 0;
@@ -547,7 +547,7 @@ p {
 
 .single-icon > i {
     font-size: 36px;
-    color: #e60000;
+    color: maroon;
 }
 
 .single-special > h4 {
@@ -580,14 +580,19 @@ p {
     font-size: 48px;
     margin-bottom: 30px;
 }
+.special_description_content > p {
+    color: black;
+
+}
 
 .single-special:hover {
     -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
-            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
 }
 
 .single-special p {
     margin-bottom: 0;
+    color: black;
 }
 
 .app-download-area {
@@ -640,11 +645,13 @@ p {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
+
 }
 
 .app-download-btn a p span {
     font-size: 12px;
     display: block;
+    color: black;
 }
 
 .app-download-btn:first-child {
@@ -668,6 +675,7 @@ p {
 
 .single-feature > p {
     margin-bottom: 0;
+    color: black;
 }
 
 .single-feature > i {
@@ -800,6 +808,7 @@ p {
 
 .app_screenshots_slides {
     padding: 0 6%;
+
 }
 
 .app_screenshots_slides .single-shot {
@@ -807,7 +816,11 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
-    transform: scale(0.85)
+    transform: scale(0.85);
+    height: 300px;
+    width: 200px;
+    padding-left: 25px;
+    padding-right:25px;
 }
 
 .app_screenshots_slides .center .single-shot {
@@ -815,7 +828,10 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1)
+    transform: scale(1);
+
+
+
 }
 
 .app-screenshots-area .owl-dot {
