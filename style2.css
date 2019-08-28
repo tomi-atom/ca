@@ -814,9 +814,9 @@ p {
 .app_screenshots_slides .single-shot {
     opacity: 0.7;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    -webkit-transform: scale(0.85);
-    -ms-transform: scale(0.85);
-    transform: scale(0.85);
+    -webkit-transform: scale(0.65);
+    -ms-transform: scale(0.65);
+    transform: scale(0.65);
     height: 300px;
     width: 200px;
     padding-left: 25px;
@@ -824,11 +824,13 @@ p {
 }
 
 .app_screenshots_slides .center .single-shot {
-    opacity: 1;
+    opacity: 2;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    height: 400px;
+    width: 200px;
 
 
 
@@ -913,6 +915,7 @@ p {
     line-height: 1;
     padding: 15px 0;
     border-bottom: 1px solid #ebebeb;
+    color: #000;
 }
 
 .single-price-plan .package-description > p:first-child {
@@ -952,6 +955,8 @@ p {
     margin: auto;
     margin-bottom: 15px;
     font-size: 22px;
+    color: #000;
+
 }
 
 .clients-feedback-area .client > i {
@@ -1309,4 +1314,63 @@ p {
 
 .copyright-text > p {
     margin-bottom: 0;
+}
+
+#fh5co-hero {
+    min-height: 700px;
+    background: #fff url(../images/loader.gif) no-repeat center center;
+}
+#fh5co-hero .btn {
+    font-size: 24px;
+}
+#fh5co-hero .btn.btn-primary {
+    padding: 14px 30px !important;
+}
+#fh5co-hero .flexslider {
+    border: none;
+    z-index: 1;
+    margin-bottom: 0;
+}
+#fh5co-hero .flexslider .slides {
+    position: relative;
+    overflow: hidden;
+}
+#fh5co-hero .flexslider .slides li {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 700px;
+}
+#fh5co-hero .flexslider .flex-control-nav {
+    bottom: 40px;
+    z-index: 1000;
+}
+#fh5co-hero .flexslider .flex-control-nav li a {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+#fh5co-hero .flexslider .flex-control-nav li a.flex-active {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+}
+#fh5co-hero .flexslider .flex-direction-nav {
+    display: none;
+}
+#fh5co-hero .flexslider .slider-text {
+    display: table;
+    opacity: 0;
+    min-height: 700px;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner {
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 700px;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
 }
